@@ -1,0 +1,162 @@
+// src/data/portfolio.js
+export const ME = {
+  name: "Mohamed Refat",
+  role: "Full-Stack MERN Developer",
+  email: "mohmedrefaat703@gmail.com",
+  phone: "+201068629230",
+  location: "Cairo, Egypt",
+  bio: "Computer Science graduate passionate about building responsive, user-friendly web experiences. I turn ideas into clean, functional products using modern JavaScript and the MERN stack.",
+  education: {
+    degree: "B.Sc. Computer Science",
+    grade: "Very Good",
+    uni: "Suez Canal University",
+    loc: "Ismailia, Egypt",
+    period: "2020 – 2024",
+  },
+  internship: {
+    title: "Full-Stack Web Dev · MERN",
+    org: "ITI — Intensive Training Program",
+    loc: "Mansoura, Egypt",
+    period: "Feb 2025 – Jul 2025",
+  },
+  skills: {
+    Frontend: ["React.js", "Tailwind CSS", "Bootstrap 5", "HTML5", "CSS3"],
+    Backend: ["Node.js", "Express.js", "REST APIs", "JWT Auth"],
+    Database: ["MongoDB", "Mongoose"],
+    Tooling: ["Git", "GitHub", "Postman", "npm"],
+    Languages: ["JavaScript ES6+", "C / C++"],
+    Concepts: ["Data Structures", "OOP", "Agile", "Software Engineering"],
+  },
+  projects: [
+    {
+      id: 1,
+      name: "Terhal",
+      sub: "Full-Stack Travel Platform",
+      icon: "✈",
+      stack: [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "Tailwind CSS",
+        "AI",
+      ],
+      desc: "Graduation project — a MERN travel platform with AI-powered trip recommendations, secure authentication, RESTful APIs, and full software testing.",
+      highlights: [
+        "AI-driven trip personalization",
+        "Scalable MERN architecture",
+        "JWT-secured REST APIs",
+        "Software testing protocols",
+      ],
+      link: "https://v1-ashy-alpha.vercel.app/",
+      linkLabel: "Live Demo",
+      linkIcon: "↗",
+    },
+    {
+      id: 2,
+      name: "Blog System",
+      sub: "React Web Application",
+      icon: "✦",
+      stack: ["React.js", "Clerk Auth", "Tailwind CSS", "React Router"],
+      desc: "Fully responsive blog platform with Clerk Auth, protected routing, real-time UI updates, and a clean component-based architecture.",
+      highlights: [
+        "Clerk Auth + protected routes",
+        "Dynamic routing",
+        "Mobile-first design",
+        "Reusable components",
+      ],
+      link: "https://blog-five-pi-69.vercel.app/",
+      linkLabel: "Live Demo",
+      linkIcon: "↗",
+    },
+    {
+      id: 3,
+      name: "Car Rental Dashboard",
+      sub: "Admin Management System",
+      icon: "◈",
+      stack: [
+        "JavaScript ES6+",
+        "HTML5",
+        "CSS3",
+        "Bootstrap 5",
+        "Local Storage",
+      ],
+      desc: "Comprehensive admin system for managing cars, bookings, and customers with full CRUD, dynamic filtering, and client-side data persistence.",
+      highlights: [
+        "Full CRUD with Local Storage",
+        "Dynamic UI & filtering",
+        "Form validation",
+        "Agile team workflow",
+      ],
+      link: "https://github.com/SafaaMagdyAwad/Car-Rental-With-Admin-DashboardITI",
+      linkLabel: "GitHub Repo",
+      linkIcon: "⌥",
+    },
+    {
+      id: 4,
+      name: "EgyTraveler",
+      sub: "UI/UX Design · Figma",
+      icon: "◇",
+      stack: ["Figma", "UI/UX Design", "Wireframing", "Prototyping"],
+      desc: "Complete travel-platform design system — user flows, wireframes, and high-fidelity UI with a focus on accessibility and visual hierarchy.",
+      highlights: [
+        "End-to-end user flows",
+        "High-fidelity Figma UI",
+        "Accessibility-first design",
+        "Consistent design system",
+      ],
+      link: "https://www.figma.com/design/ajCkwyi4e9bYdN2kuGwPGE/EgyTraveler?t=UraEXLXQUZyV0L1u-0",
+      linkLabel: "View in Figma",
+      linkIcon: "↗",
+    },
+    {
+      id: 5,
+      name: "Courses API",
+      sub: "RESTful Backend Service",
+      icon: "⬡",
+      stack: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT"],
+      desc: "Robust RESTful API with full CRUD, MVC architecture, JWT authentication, and Global Error Handling middleware. All endpoints documented via Postman.",
+      highlights: [
+        "MVC architecture",
+        "JWT authentication",
+        "Global error handling",
+        "Postman documented",
+      ],
+      link: "https://github.com/mohmedRefat/Courses_API",
+      linkLabel: "GitHub Repo",
+      linkIcon: "⌥",
+    },
+  ],
+  languages: [
+    { name: "Arabic", level: "Native", pct: 100 },
+    { name: "English", level: "Very Good", pct: 82 },
+  ],
+};
+
+export const NAV = ["Home", "Skills", "Projects", "Education", "Contact"];
+
+export const SKILL_ACCENT = {
+  Frontend: "#60A5FA",
+  Backend: "#34D399",
+  Database: "#C084FC",
+  Tooling: "#FB923C",
+  Languages: "#F472B6",
+  Concepts: "#94A3B8",
+};
+
+export const SKILL_ICON = {
+  Frontend: "⬡",
+  Backend: "⚙",
+  Database: "◈",
+  Tooling: "◎",
+  Languages: "{ }",
+  Concepts: "◇",
+};
+
+export const PROJ_ACCENT = [
+  "#60A5FA",
+  "#34D399",
+  "#FB923C",
+  "#C084FC",
+  "#F472B6",
+];
